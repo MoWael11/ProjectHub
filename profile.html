@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/myKeyFrames.css">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&amp;display=swap" rel="stylesheet">
+    <body>
+        <div class="page d-flex">
+            <div class="sidebar p-20 bg-white relative">
+                <h3 class="w-ft pb-15 relative m-auto">Mohamed</h3>
+                <ul>
+                    <li>
+                        <a class="transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10" href="index.html">
+                            <i class="fa-regular fa-chart-bar fa-fw"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10" href="settings.html">
+                            <i class="fa-solid fa-gear fa-fw"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10" href="profile.html">
+                            <i class="fa-solid fa-user fa-fw"></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10" href="projects.html">
+                            <i class="fa-solid fa-diagram-project fa-fw"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10" href="courses.html">
+                            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                            <span>Courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10" href="friends.html">
+                            <i class="fa-regular fa-circle-user fa-fw"></i>
+                            <span>Friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10" href="files.html">
+                            <i class="fa-solid fa-file fa-fw"></i>
+                            <span>Files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="transition fs-14 d-flex p-10 rad-6 c-black fi-center mb-5 gap-10  " href="plans.html">
+                            <i class="fa-solid fa-credit-card fa-fw"></i>
+                            <span>Plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content w-full hide">
+                <div class="head between-flex p-15 bg-white">
+                    <div class="search relative">
+                        <input class="focus border-rad-10 p-10" type="text" placeholder="Type A Keyword">
+                    </div>
+                    <div class="icons d-flex fi-center">
+                       <span class="notification relative">
+                            <i class="cursor fa-regular fa-bell fa-lg"></i>
+                       </span> 
+                       <img class="cursor" src="images/avatar.png">
+                    </div>
+                </div>
+                <h1 class="relative">Profile</h1>
+                <div class="data m-20 cap d-flex bg-white rad-10 flex-c-mobile">
+                    <div class="avatar-box center-flex f-column p-20">
+                        <img class="rad-half mb-10" src="images/avatar.png" alt="">
+                        <h3 class="m-0">mohamed wael</h3>
+                        <span class="c-grey mt-10 mb-15">level 20</span>
+                        <div class="level relative rad-6 mb-10">
+                            <span class="progress bg-blue absolute rad-10"></span>
+                        </div>
+                        <div class="rating gap-10">
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                        </div>
+                        <span class="c-grey fs-13 mt-10">550 rating</span>
+                    </div>
+                    <div class="information">
+                        <div class="box d-flex f-wrap transition p-20 b-buttom-eee">
+                            <h4 class="fw-normal fs-15 w-full c-grey m-0">general information</h4>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">full name: </span>
+                                <span>moahmed wael</span>
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">gender: </span>
+                                <span>male</span>
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">country: </span>
+                                <span>egypt</span>
+                            </div>
+                            <div>
+                                <label class="d-block pt-10">
+                                    <input class="d-none appearance" type="checkbox" checked>
+                                    <div class="toggle-switch cursor transition relative"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box d-flex f-wrap transition p-20 b-buttom-eee">
+                            <h4 class="fw-normal fs-15 w-full c-grey m-0">personal information</h4>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">email: </span>
+                                <span style="text-transform: lowercase;">o@nn.sa</span>
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">date of birth: </span>
+                                <span>23/12/1985</span>
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">phone: </span>
+                                <span>123454223</span>
+                            </div>
+                            <div>
+                                <label class="d-block pt-10">
+                                    <input class="d-none appearance" type="checkbox">
+                                    <div class="toggle-switch transition cursor relative"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box d-flex f-wrap transition p-20 b-buttom-eee">
+                            <h4 class="fw-normal fs-15 w-full c-grey m-0">job information</h4>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">title: </span>
+                                <span>student</span>
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">years of experience: </span>
+                                <span>+1</span>
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">programming language: </span>
+                                <span>python</span>
+                            </div>
+                            <div>
+                                <label class="d-block pt-10">
+                                    <input class="d-none appearance" type="checkbox" checked>
+                                    <div class="toggle-switch cursor transition relative"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box d-flex f-wrap transition p-20 b-buttom-eee">
+                            <h4 class="fw-normal fs-15 w-full c-grey m-0">billing information</h4>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">payment method: </span>
+                                <span></span>paypal
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">subscription: </span>
+                                <span>monthly</span>
+                            </div>
+                            <div class="fs-14 pt-10 ">
+                                <span class="c-grey">email: </span>
+                                <span>email@website.com</span>
+                            </div>
+                            <div>
+                                <label class="d-block pt-10">
+                                    <input class="d-none appearance" type="checkbox">
+                                    <div class="toggle-switch cursor transition relative"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-information d-flex m-20 cap gap-20">
+                    <div class="my-skills p-20 bg-white rad-10">
+                        <h2 class="mt-0 mb-10">my skills</h2>
+                        <p class="fs-15 mt-0 mb-20 c-grey">complete skills list</p>
+                        <ul>
+                            <li class="pb-15 mb-15 b-buttom-eee d-flex center-flex gap-5">
+                                <div class="bottun fs-15">HTML</div>
+                                <div class="bottun fs-15">Pugis</div>
+                                <div class="bottun fs-15">HAML</div>
+                            </li>
+                            <li class="pb-15 mb-15 b-buttom-eee d-flex center-flex gap-5">
+                                <div class="bottun fs-15">css</div>
+                                <div class="bottun fs-15">SASS</div>
+                                <div class="bottun fs-15">Stylus</div>
+                            </li>
+                            <li class="pb-15 mb-15 b-buttom-eee d-flex center-flex gap-5">
+                                <div class="bottun fs-15">javaScript</div>
+                                <div class="bottun fs-15">typeScript</div>
+                            </li>
+                            <li class="pb-15 mb-15 b-buttom-eee d-flex center-flex gap-5">
+                                <div class="bottun fs-15">vuejs</div>
+                                <div class="bottun fs-15">reactjs</div>
+                            </li>
+                            <li class="pb-15 mb-15 b-buttom-eee d-flex center-flex gap-5">
+                                <div class="bottun fs-15">jest</div>
+                                <div class="bottun fs-15">jasmine</div>
+                            </li>
+                            <li class="pb-15 mb-15 b-buttom-eee d-flex center-flex gap-5">
+                                <div class="bottun fs-15">Nodejs</div>
+                            </li>
+                            <li class="b-buttom-eee d-flex center-flex gap-5">
+                                <div class="bottun fs-15">python</div>
+                                <div class="bottun fs-15">django</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="activities p-20 bg-white rad-10 flex">
+                        <h2 class="mt-0 mb-10">other activities</h2>
+                        <p class="fs-15 mt-0 mb-20 c-grey">bought the mastering pytohn course</p>
+                        <div class="box between-flex flex-c-mobile pb-15 mb-15 gap-10 b-buttom-eee">
+                            <div class="d-flex fi-center gap-10">
+                                <img class="rad-half" src="images/activity-01.png">
+                                <div class="info">
+                                    <span class="mb-5 fs-15 d-block">store</span>
+                                    <span class="c-grey">bought the mastering python course</span>
+                                </div>
+                            </div>
+                            <div class="date">
+                                <span class="mb-5 fs-15 d-block t-right text-c-mobile">18:10</span>
+                                <span class="c-grey">yesterday</span>
+                            </div>
+                        </div>
+                        <div class="box between-flex flex-c-mobile mb-15 pb-15 gap-10 b-buttom-eee">
+                            <div class="d-flex fi-center gap-10">
+                                <img class="rad-half" src="images/activity-02.png">
+                                <div class="info">
+                                    <span class="mb-5 fs-15 d-block">academy</span>
+                                    <span class="c-grey">got the Nodejs certificate</span>
+                                </div>
+                            </div>
+                            <div class="date">
+                                <span class="mb-5 fs-15 d-block t-right text-c-mobile">16:05</span>
+                                <span class="c-grey">yesterday</span>
+                            </div>
+                        </div>
+                        <div class="box between-flex flex-c-mobile mb-15 pb-15 gap-10 b-buttom-eee">
+                            <div class="d-flex fi-center gap-10">
+                                <img class="rad-half" src="images/activity-03.png">
+                                <div class="info">
+                                    <span class="mb-5 fs-15 d-block">badges</span>
+                                    <span class="c-grey">unlocked the 10 skills badge</span>
+                                </div>
+                            </div>
+                            <div class="date">
+                                <span class="mb-5 fs-15 d-block t-right text-c-mobile">18:05</span>
+                                <span class="c-grey">yesterday</span>
+                            </div>
+                        </div>
+                        <div class="box between-flex flex-c-mobile gap-10 b-buttom-eee">
+                            <div class="d-flex fi-center gap-10">
+                                <img class="rad-half" src="images/activity-01.png">
+                                <div class="info">
+                                    <span class="mb-5 fs-15 d-block">store</span>
+                                    <span class="c-grey">bought the typescript course</span>
+                                </div>
+                            </div>
+                            <div class="date">
+                                <span class="mb-5 fs-15 d-block t-right text-c-mobile">12:05</span>
+                                <span class="c-grey">yesterday</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
